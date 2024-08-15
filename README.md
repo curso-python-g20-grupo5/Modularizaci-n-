@@ -29,9 +29,8 @@ Este programa también debe mostrar los ingredientes que actualmente tiene la pi
 
 3. Una estimación de tiempo que tomará en que la pizza esté lista, y ofrezca la
 posibilidad de confirmar si es que desea ordenar. El tiempo para estar lista serán 20
-minutos + 2 minutos por cada ingrediente, excluyendo masa y salsa. (3 puntos)
-4. Una opción que permita mostrar los ingredientes que actualmente tiene la pizza. (1
-punto)
+minutos + 2 minutos por cada ingrediente, excluyendo masa y salsa.
+4. Una opción que permita mostrar los ingredientes que actualmente tiene la pizza. 
 
 
 ## Autores y Autoras
