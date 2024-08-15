@@ -1,4 +1,19 @@
 def cambiar_salsa(salsas):
+    """
+    Permite al usuario seleccionar un tipo de salsa de una lista de opciones disponibles.
+
+    La función muestra los tipos de salsa disponibles, solicita al usuario que seleccione una opción 
+    ingresando un número correspondiente, y luego devuelve el tipo de salsa seleccionado. 
+    Si el usuario ingresa una opción no válida o un valor no numérico, la función mantiene 
+    la salsa actual (primera en la lista) y muestra un mensaje de error.
+
+    Args:
+        salsas (list): Lista de tipos de salsa disponibles.
+
+    Returns:
+        str: El tipo de salsa seleccionado por el usuario. 
+             Si la entrada es inválida, devuelve la primera salsa en la lista.
+    """
     print("Tipos de salsa disponibles:")
     for i, salsa in enumerate(salsas, start=1):
         print(f"{i}. {salsa}")
