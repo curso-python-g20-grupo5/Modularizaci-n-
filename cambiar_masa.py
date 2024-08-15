@@ -1,4 +1,19 @@
 def cambiar_masa(masas):
+    """
+    Permite al usuario seleccionar un tipo de masa de una lista de opciones disponibles.
+
+    La función muestra los tipos de masa disponibles, solicita al usuario que seleccione una opción 
+    ingresando un número correspondiente, y luego devuelve el tipo de masa seleccionado. 
+    Si el usuario ingresa una opción no válida o un valor no numérico, la función mantiene 
+    la masa actual (primera en la lista) y muestra un mensaje de error.
+
+    Args:
+        masas (list): Lista de tipos de masa disponibles.
+
+    Returns:
+        str: El tipo de masa seleccionado por el usuario. 
+             Si la entrada es inválida, devuelve la primera masa en la lista.
+    """
     print("Tipos de masa disponibles:")
     for i, masa in enumerate(masas, start=1):
         print(f"{i}. {masa}")

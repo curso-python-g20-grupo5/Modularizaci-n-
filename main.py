@@ -11,9 +11,24 @@ from mostrar_ingredientes_disponibles import mostrar_ingredientes_disponibles
 
 def main():
     """
-    Crea menú de acuerdo a opción entregada por usuario
-    Con indice cero para variables masas, salsas e ingredientes
-    ciclo while para determinar por condición la elección.
+    Función principal que ejecuta el menú interactivo para la personalización de pizzas.
+    
+    El programa permite al usuario:
+    1. Cambiar el tipo de masa.
+    2. Cambiar el tipo de salsa.
+    3. Modificar los ingredientes (agregar o eliminar).
+    4. Mostrar los ingredientes actuales de la pizza.
+    5. Confirmar el pedido y estimar el tiempo de preparación.
+
+    El ciclo se repite hasta que el usuario decide confirmar el pedido o salir.
+
+    Variables:
+    masa_actual (str): Tipo de masa seleccionada por el usuario.
+    salsa_actual (str): Tipo de salsa seleccionada por el usuario.
+    ingredientes_actuales (list): Lista de ingredientes actualmente en la pizza.
+
+    Error:
+    ValueError: Si la opción ingresada por el usuario no es un número entero válido.
     """
     masa_actual = masas[0]
     salsa_actual = salsas[0]
