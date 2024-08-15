@@ -10,6 +10,11 @@ from mostrar_ingredientes_disponibles import mostrar_ingredientes_disponibles
 
 
 def main():
+    """
+    Crea menú de acuerdo a opción entregada por usuario
+    Con indice cero para variables masas, salsas e ingredientes
+    ciclo while para determinar por condición la elección.
+    """
     masa_actual = masas[0]
     salsa_actual = salsas[0]
     ingredientes_actuales = []
