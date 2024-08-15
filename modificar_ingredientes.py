@@ -1,4 +1,20 @@
 def modificar_ingredientes(ingredientes_actuales, ingredientes_disponibles):
+    """
+    Permite al usuario agregar o eliminar ingredientes de la pizza actual.
+
+    La función muestra los ingredientes que ya están en la pizza y ofrece dos opciones:
+    1. Agregar un nuevo ingrediente de la lista de ingredientes disponibles.
+    2. Eliminar un ingrediente que ya esté en la pizza.
+
+    Si el usuario selecciona agregar, se le mostrará la lista de ingredientes disponibles
+    y podrá elegir uno para añadir a la pizza, siempre que no esté ya en la lista. 
+    Si selecciona eliminar, deberá ingresar el nombre del ingrediente que desea quitar.
+
+    Args:
+        ingredientes_actuales (list): Lista de ingredientes que ya están en la pizza.
+        ingredientes_disponibles (list): Lista de todos los ingredientes disponibles para agregar.
+
+    """
     print("Ingredientes actuales:", ingredientes_actuales)
     print("1. Agregar ingrediente")
     print("2. Eliminar ingrediente")
